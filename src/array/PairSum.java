@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class PairSum {
     static void main(String[] args) {
         int[] arr = new int[]{2, 5, 11, 15};
-        final int target = 13;
+        final int target = 26;
 
         System.out.println(Arrays.toString(bruteForce(arr, target)));
         System.out.println(Arrays.toString(optimalApproach(arr, target)));
